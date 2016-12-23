@@ -1,11 +1,9 @@
 package at.htl.wawi.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
+@Table(name = "WW_PRODUCT")
 public class Product {
 
     @Id
